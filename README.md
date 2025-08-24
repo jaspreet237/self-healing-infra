@@ -121,6 +121,13 @@ Use Kubernetes + Operators for scaling.
 
 Extend Ansible playbooks for VM/Cloud service recovery.
 
+##**SCREENSHOTS**
+<img width="413" height="551" alt="image" src="https://github.com/user-attachments/assets/9deea508-af58-4a48-8021-f96930ac22d8" />
+
+<img width="854" height="355" alt="image" src="https://github.com/user-attachments/assets/be1235df-6ce2-4e5c-aab6-debb3ae96701" />
+
+
+
 👨‍💻 Author
 
 Jaspreet Singh
