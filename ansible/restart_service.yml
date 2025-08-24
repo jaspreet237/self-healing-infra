@@ -1,0 +1,8 @@
+- name: Restart service container
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Restart service
+      community.docker.docker_container:
+        name: service
+        state: restarted

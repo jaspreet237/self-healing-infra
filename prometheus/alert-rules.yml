@@ -1,0 +1,11 @@
+groups:
+  - name: service_down
+    rules:
+      - alert: ServiceDown
+        expr: probe_success == 0
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Service is down"
+          description: "The service {{ $labels.instance }} is unreachable"
