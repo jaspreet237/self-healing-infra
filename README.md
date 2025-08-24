@@ -70,6 +70,8 @@ docker compose up -d --build
 
 3️⃣ Verify Setup
 
+Blackbox Exporter → http://localhost:9115
+
 Prometheus → http://localhost:9090
 
 Alertmanager → http://localhost:9093
